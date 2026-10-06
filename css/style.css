@@ -14,11 +14,39 @@ a{
   color:#222;
   text-decoration: none;
 }
+.sepparator{
+  display: block;
+  margin: auto;
+  background: black;
+  width: 100px;
+  height: 10px;
+}
+p{
+  margin-bottom: 20px; 
+}
+
 html, body {
   font-family: "Open Sans", sans-serif;
 }
 .active{
   background-color: #444;
+}
+.btn{
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.btn-primary{
+  background-color: white;
+  color: #222;
+  font-weight: 700;
+  font-seize: 14px;
+
+}
+.my-1{  
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /*mise en place du header*/
 header {
@@ -48,4 +76,27 @@ header nav ul li a {
 }
 header nav ul li a:hover {
   background: #444;
+}
+/* vp*/
+.vp{
+    background-image: url("../images/cafe.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+.vp-content{  
+  max-width: 600px;
+  padding-top: 150px;
+  color: white;
+  display:block;
+  margin:auto;
+}
+.vp-content h1{  
+  front-size: 50px;
+}
+.vp-content p{  
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
 }
